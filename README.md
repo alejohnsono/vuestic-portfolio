@@ -5,114 +5,140 @@
 </p>
 
 <p align="center">
-  Free and beautiful Admin Template utilizing Vue 3, Vite, Pinia, and Tailwind CSS. Designed for building efficient, responsive, and fast-loading admin interfaces.</br>
-  Developed by  <a href="https://epicmax.co">Epicmax</a>.</br>
-  Based on <a href="https://ui.vuestic.dev">Vuestic UI</a> library.
+  <h1 align="center">Vuestic Admin - Panel de Administración Profesional</h1>
 </p>
 
 <p align="center">
-  <a href="https://admin-demo.vuestic.dev"> Live Demo </a> |
-  <a href="https://admin.vuestic.dev/"> About Vuestic Admin </a> |
-  <a href="https://ui.vuestic.dev/">Vuestic UI documentation</a>
+  Implementación completa de un dashboard administrativo con Vue 3 y TypeScript.<br/>
+  Demostración de habilidades frontend con arquitectura escalable y mejores prácticas.<br/>
+  <strong>Portafolio por Daniel Opazo</strong>
 </p>
 
-> Vuestic Admin is built with [Vuestic UI](https://ui.vuestic.dev). See our
-> <a href="https://github.com/epicmaxco/vuestic-ui/issues">issues</a>,
-> <a href="https://ui.vuestic.dev/en/contribution/guide">contributing guide</a> and join discussions on our
-> <a href="https://discord.gg/jTKTjj2weV">Discord server</a> to help us improve Vuestic Admin & Vuestic UI experience.
+<p align="center">
+  <a href="[TU-LINK-DEMO]">🔗 Demo en Vivo</a> |
+  <a href="https://github.com/alejohnsono/vuestic-portfolio">📦 Repositorio</a> |
+  <a href="https://ui.vuestic.dev/">📚 Documentación Vuestic</a>
+</p>
 
 <p align="center">
-  <a href="https://admin.vuestic.dev" target="_blank">
+  <a href="[TU-LINK-DEMO]" target="_blank">
     <img src="./public/vuestic-admin-image.png" align="center" width="888px"/>
   </a>
 </p>
 
-### Quick start
+## 🚀 Características Técnicas Implementadas
 
-Use following command to quickly scaffold new [Vuestic Admin](https://admin-demo.vuestic.dev) or empty Vite or Nuxt project with [Vuestic UI](https://ui.vuestic.dev).
+### **Arquitectura y Estado**
+- **Vue 3 + Composition API** - Componentes reactivos modernos
+- **TypeScript** - Tipado estático para mayor robustez
+- **Pinia** - Gestión de estado escalable y tipo-safe
+- **Vite** - Build tool ultra-rápido con HMR
+
+### **UI/UX y Diseño**
+- **Tailwind CSS** - Utilidades para diseño responsive
+- **Sistema de Temas** - Claro/oscuro con persistencia
+- **Componentes Accesibles** - WCAG y ARIA compliance
+- **Diseño Mobile-First** - Adaptable a todos los dispositivos
+
+### **Funcionalidades Avanzadas**
+- **Vue Router** - Navegación con lazy loading
+- **i18n Internacionalización** - Soporte multi-idioma
+- **Formularios Reactivos** - Validación en tiempo real
+- **Charts y Tablas** - Visualización de datos interactiva
+
+## 📦 Instalación y Uso
 
 ```bash
-npm create vuestic@latest
-```
+# Clonar repositorio
+git clone https://github.com/alejohnsono/vuestic-portfolio.git
 
-After [Vuestic Admin](https://admin.vuestic.dev) is installed, run `npm install` to install dependcies, then run `npm run dev` to start local development server.
+# Instalar dependencias
+npm install
 
-### Documentation
+# Desarrollo
+npm run dev
 
-Documentation, guides, examples and tutorials are available on [ui.vuestic.dev](https://ui.vuestic.dev)
+# Build producción
+npm run build
 
-### Official Discord Server
+# Preview build
+npm run preview
 
-Ask questions at the official community [discord server](https://discord.gg/jTKTjj2weV)
+## 🏗️ Estructura del Proyecto
 
-### Features
+| Directorio | Descripción |
+|-----------|-------------|
+| `src/components/` | Componentes reutilizables (30+) |
+| `src/views/` | Vistas/páginas principales |
+| `src/stores/` | Estado global con Pinia |
+| `src/router/` | Configuración de rutas |
+| `src/locales/` | Traducciones (ES/EN) |
+| `src/composables/` | Lógica reusable Composition API |
+| `src/services/` | Conexión con APIs |
+| `src/assets/` | Estilos, imágenes, fuentes |
 
-- **Vue 3, Vite, Pinia, and Tailwind CSS -** Fast and efficient development
-- **Dark Theme -** Modern and eye-catching
-- **Global Configuration -** Effortless customization
-- **Accessibility -** Inclusive and user-friendly
-- **i18n Integration -** Easy localization for global reach
-- **Educational Resource -** Ideal for learning and improving skills
-- **Responsive Design -** Adapts seamlessly to all devices
-- **Professional Support -** Reliable help from the experts
-- **Highly Customizable -** Tailor to your project’s style
 
-### Contributing
+## 🎯 Habilidades Demostradas
 
-Thanks for all your wonderful PRs, issues and ideas.
+### **Frontend Avanzado**
+- Componentes modulares y reutilizables
+- Gestión de estado predictivo
+- Optimización de rendimiento
+- TypeScript en producción
 
-<a href="https://github.com/epicmaxco/vuestic-admin/graphs/contributors">
-<img src="https://opencollective.com/vuestic-admin/contributors.svg?width=890&button=false" />
-</a>
-<br>
+### **UX/UI Profesional**
+- Diseño responsive
+- Accesibilidad web
+- Experiencia de usuario fluida
+- Animaciones y transiciones
 
-You’re always welcome to join: check out
-our <a href="https://ui.vuestic.dev/en/contribution/guide">
-contribution guides</a>
-, [open issues](https://github.com/epicmaxco/vuestic-ui/issues)
-and [Discord server](https://discord.gg/jTKTjj2weV)
+### **DevOps Frontend**
+- Build automation con Vite
+- Code splitting y lazy loading
+- Optimización de assets
+- Deployment continuo
 
-### Partners & Sponsors ❤️
+## 🔧 Stack Tecnológico Completo
 
-<img src="./.github/assets/sponsors.png" loading="lazy" alt="Epicmax, vuejobs, ag-grid, flatlogic, browserstack and jetbrains" width="400px">
+| Tecnología | Propósito |
+|------------|-----------|
+| Vue 3 | Framework principal |
+| TypeScript | Tipado estático |
+| Vite | Bundler y dev server |
+| Pinia | Gestión de estado |
+| Tailwind CSS | Estilos y utilidades |
+| Vue Router | Navegación SPA |
+| Vue I18n | Internacionalización |
+| ESLint/Prettier | Calidad de código |
 
-Become a partner: [hello@epicmax.co](mailto:hello@epicmax.co)
+## 📚 Aprendizajes Clave
 
-### Can I hire you guys?
+Esta implementación demuestra competencia en:
+- Arquitectura de aplicaciones Vue a escala
+- Patrones de diseño frontend modernos
+- Optimización de performance web
+- Mejores prácticas de TypeScript
+- CI/CD para frontend
 
-[Epicmax](https://epicmax.co) is committed to Open Source from its beginning. Vuestic Admin was created and backed by Epicmax, and is supported through all the years.
+## 📝 Notas del Proyecto
 
-With 6+ years of dedicated work on both commercial and open-source projects, and more than 47 clients worldwide across various fields, Epicmax has deep expertise in frontend development, especially in Vue.js. We regularly conduct code audits for our projects and now excited to offer this service not only to our existing clients but to anyone looking to understand the state of their frontend code and ensure it's secure and up-to-date!
+> Este proyecto es una implementación del template [Vuestic Admin](https://github.com/epicmaxco/vuestic-admin) adaptada y configurada para demostrar habilidades profesionales en desarrollo frontend. Se mantiene fidelidad a la arquitectura original mientras se implementan mejoras de configuración y optimización.
 
-You can request a consultation or order web development services by Epicmax via this [form](https://epicmax.co/contacts) 😎
+## 👨‍💻 Acerca del Autor
 
-Say hi: <a href="mailto:hello@epicmax.co">hello@epicmax.co</a>. We will be happy to work with you!
+**Alejandro Johnson** - Desarrollador Web
 
-[Other work](https://epicmax.co) we’ve done 🤘
+- 📍 Enfocado en aplicaciones modernas y escalables
+- 🛠️ Experiencia con Vue 3, TypeScript y ecosistema frontend
+- 🎯 Apasionado por UX, performance y código limpio
+- 🔗 [LinkedIn](https://www.linkedin.com/in/alejandro-johnson-opazo/) | [Portafolio](https://alejandrojohnson.site/)
 
-[Meet the Team](https://ui.vuestic.dev/introduction/team)
+## 📄 Licencia
 
-### Awards
+Este proyecto de portafolio está bajo [MIT License](LICENSE).<br/>
+Vuestic Admin es un proyecto de [Epicmax](https://epicmax.co).
 
-<a href="https://flatlogic.com/templates/vuestic-vue-free-admin" target="_blank">
-    <img src="https://i.imgur.com/ZeQPZ3Q.png" align="center" width="150px"/>
-</a>
-<p>
-  By <a href="https://flatlogic.com/templates/vuestic-vue-free-admin" target="_blank">@flatlogic</a> marketplace
+---
+<p align="center">
+  <em>Construido con Vue.js y dedicación 🚀</em>
 </p>
-
-### Premium Support and Consulting
-
-Get Premium Support & Consulting services through our official development partner, Epicmax. As the main contributor to Vuestic UI and Vuestic Admin, Epicmax brings a wealth of expertise and experience to help you achieve your project goals efficiently and effectively.
-
-[Get a quote](https://www.epicmax.co/?ref=vuestic-consulting)
-
-### Follow us
-
-Stay up to date with the latest Vuestic news! Follow us
-on [Twitter](https://twitter.com/vuestic_ui)
-or [Linkedin](https://www.linkedin.com/company/18509340)
-
-### License
-
-[MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
