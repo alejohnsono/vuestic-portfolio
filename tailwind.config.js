@@ -11,13 +11,13 @@ export default {
       maxWidth: {
         '7xl': '1128px',
       },
-      colors: {
-        primary: 'var(--va-primary)',
-        secondary: 'var(--va-secondary)',
-        success: 'var(--va-success)',
-        info: 'var(--va-info)',
-        danger: 'var(--va-danger)',
-        warning: 'var(--va-warning)',
+     colors: {
+        primary: '#3842c2ff',
+        secondary: '#6B7280',
+        success: '#10B981',
+        info: '#2539afff',
+        danger: '#EF4444',
+        warning: '#F59E0B',
         backgroundPrimary: 'var(--va-background-primary)',
         backgroundSecondary: 'var(--va-background-secondary)',
         backgroundElement: 'var(--va-background-element)',
