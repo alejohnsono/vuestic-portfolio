@@ -71,7 +71,7 @@
       "bankDetails": {
         "title": "Detalles del banco",
         "detailsFields": "Campos de detalles",
-        "bankName": "Nombre del banco",
+        "bankName": "Nombre del bank",
         "accountName": "Nombre de la cuenta",
         "sortCode": "Código de ordenación",
         "accountNumber": "Número de cuenta",
@@ -102,8 +102,13 @@
     "pricing-plans": "Planes de precios",
     "login-singup": "Iniciar sesión/Registrarse",
     "404": "Páginas 404",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "users": "Usuarios",
+    "projects": "Proyectos",
+    "payment_methods": "Métodos de Pago",
+    "settings": "Configuración"
   },
+  "menu_settings": "Configuración",
   "messages": {
     "all": "Ver todos los mensajes",
     "new": "Nuevos mensajes de {name}",
