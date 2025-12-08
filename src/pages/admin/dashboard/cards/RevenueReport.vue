@@ -1,17 +1,17 @@
 <template>
   <VaCard class="flex flex-col">
     <VaCardTitle class="flex items-start justify-between">
-      <h1 class="card-title text-secondary font-bold uppercase">Revenue Report</h1>
+      <h1 class="card-title text-secondary font-bold uppercase">Informe de Ingresos</h1>
       <div class="flex gap-2">
         <VaSelect v-model="selectedMonth" preset="small" :options="monthsWithCurrentYear" class="w-24" />
-        <VaButton class="h-2" size="small" preset="primary" @click="exportAsCSV">Export</VaButton>
+        <VaButton class="h-2" size="small" preset="primary" @click="exportAsCSV">Exportar</VaButton>
       </div>
     </VaCardTitle>
     <VaCardContent class="flex flex-col-reverse md:flex-row md:items-center justify-between gap-5 h-full">
       <section class="flex flex-col items-start w-full sm:w-1/3 md:w-2/5 lg:w-1/4 gap-2 md:gap-8 pl-4">
         <div>
           <p class="text-xl font-semibold">{{ formatMoney(totalEarnings) }}</p>
-          <p class="whitespace-nowrap mt-2">Total earnings</p>
+          <p class="whitespace-nowrap mt-2">Ganancias Totales</p>
         </div>
         <div class="flex flex-col sm:flex-col gap-2 md:gap-8 w-full">
           <div>

@@ -1,7 +1,7 @@
 <template>
   <VaCard>
     <VaCardTitle>
-      <h1 class="card-title text-tag text-secondary font-bold uppercase">Monthly Earnings</h1>
+      <h1 class="card-title text-tag text-secondary font-bold uppercase">GANANCIAS MENSUALES</h1>
     </VaCardTitle>
     <VaCardContent>
       <div class="p-1 bg-black rounded absolute right-4 top-4">
@@ -12,7 +12,7 @@
         <p class="text-xs text-success">
           <VaIcon name="arrow_upward" />
           25.36%
-          <span class="text-secondary"> last month</span>
+          <span class="text-secondary">mes pasado</span>
         </p>
       </section>
       <div class="w-full flex items-center">

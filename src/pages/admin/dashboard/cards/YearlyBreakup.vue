@@ -1,7 +1,7 @@
 <template>
   <VaCard>
     <VaCardTitle class="pb-0!">
-      <h1 class="card-title text-secondary font-bold uppercase">Yearly Breakup</h1>
+      <h1 class="card-title text-secondary font-bold uppercase">Resumen Anual</h1>
     </VaCardTitle>
     <VaCardContent class="flex flex-row gap-1">
       <section class="w-1/2">
@@ -9,16 +9,16 @@
         <p class="text-xs text-success whitespace-nowrap">
           <VaIcon name="arrow_outward" />
           +2,5%
-          <span class="text-secondary"> last year</span>
+          <span class="text-secondary">último año</span>
         </p>
         <div class="my-4 gap-2 flex flex-col">
           <div class="flex items-center">
             <span class="inline-block w-2 h-2 mr-2" :style="{ backgroundColor: earningsBackground }"></span>
-            <span class="text-secondary">Earnings</span>
+            <span class="text-secondary">Ganancias</span>
           </div>
           <div class="flex items-center">
             <span class="inline-block w-2 h-2 mr-2" :style="{ backgroundColor: profitBackground }"></span>
-            <span class="text-secondary">Profit</span>
+            <span class="text-secondary">Beneficio</span>
           </div>
         </div>
       </section>

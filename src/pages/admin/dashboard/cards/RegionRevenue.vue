@@ -1,7 +1,7 @@
 <template>
   <VaCard>
     <VaCardTitle class="flex justify-between">
-      <h1 class="card-title text-secondary font-bold uppercase">Revenue by Top Regions</h1>
+      <h1 class="card-title text-secondary font-bold uppercase">INGRESOS POR REGIÓN</h1>
     </VaCardTitle>
     <VaCardContent class="flex flex-col gap-1">
       <div class="flex justify-between">

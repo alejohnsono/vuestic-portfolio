@@ -8,9 +8,9 @@ import { ref } from 'vue'
 import { useProjectUsers } from '../../../projects/composables/useProjectUsers'
 
 const columns = defineVaDataTableColumns([
-  { label: 'Name', key: 'project_name', sortable: true },
-  { label: 'Status', key: 'status', sortable: true },
-  { label: 'Team', key: 'team', sortable: true },
+  { label: 'Nombre', key: 'project_name', sortable: true },
+  { label: 'Estado', key: 'status', sortable: true },
+  { label: 'Equipo', key: 'team', sortable: true },
 ])
 
 const pagination = ref<Pagination>({ page: 1, perPage: 5, total: 0 })
@@ -24,8 +24,8 @@ const { getTeamOptions, getUserById } = useProjectUsers()
 <template>
   <VaCard>
     <VaCardTitle class="flex items-start justify-between">
-      <h1 class="card-title text-secondary font-bold uppercase">Projects</h1>
-      <VaButton preset="primary" size="small" to="/projects">View all projects</VaButton>
+      <h1 class="card-title text-secondary font-bold uppercase">Proyectos</h1>
+      <VaButton preset="primary" size="small" to="/projects">Ver todos los proyectos</VaButton>
     </VaCardTitle>
     <VaCardContent>
       <div v-if="projects.length > 0">
@@ -59,7 +59,7 @@ const { getTeamOptions, getUserById } = useProjectUsers()
           </template>
         </VaDataTable>
       </div>
-      <div v-else class="p-4 flex justify-center items-center text-[var(--va-secondary)]">No projects</div>
+      <div v-else class="p-4 flex justify-center items-center text-[var(--va-secondary)]">No hay proyectos</div>
     </VaCardContent>
   </VaCard>
 </template>
