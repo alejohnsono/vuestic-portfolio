@@ -11,7 +11,7 @@ export default {
       maxWidth: {
         '7xl': '1128px',
       },
-     colors: {
+      colors: {
         primary: '#3842c2ff',
         secondary: '#6B7280',
         success: '#10B981',
