@@ -106,7 +106,10 @@
     "users": "Usuarios",
     "projects": "Proyectos",
     "payment_methods": "Métodos de Pago",
-    "settings": "Configuración"
+    "settings": "Configuración",
+    "payment-methods": "Métodos de Pago",
+    "signup": "Registrarse",
+    "recover-password": "Recuperar Contraseña"
   },
   "menu_settings": "Configuración",
   "messages": {
